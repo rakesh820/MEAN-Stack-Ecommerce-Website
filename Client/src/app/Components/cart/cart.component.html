@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="text-center mt-3">Cart</h1>
+    <table class="table mt-5 w-auto t">
+        <thead>
+            <tr>
+                <th scope="col">Item Name</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+               <tr *ngFor="let c of cart.items">
+                   <td>{{c.productName}}</td>
+                   <td>{{c.price}}</td>
+                </tr>
+        </tbody>
+    </table>
+    <div class="d row ">
+    <h3 class="col-2" >Total Price:</h3>
+    <p class="col-2" >₹ {{cart.totalPrice}}</p>
+</div>
+
+    <div class="text-center mt-3">
+    <a  class="btn btn-outline-primary rounded-pill" routerLink="Purchase" (click)="delete()">Buy Now</a>
+</div>
+</div>

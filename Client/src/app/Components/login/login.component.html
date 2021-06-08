@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="f">
+        <h3 class="h">Login</h3>
+        <form (submit)="sendLogin()" class="fo" ngNativeValidate >
+            <div class="form-group row mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Email </label>
+                <input type="email" class="form-control" [(ngModel)]="email" name="email" >
+            </div>
+            <div class="form-group row mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Password</label>
+                <input type="password" class="form-control" [(ngModel)]="password" name="password">
+            </div>
+            <div class="b">
+            <a [routerLink]="['/Profile',email]"><input type="submit" class="btn rounded-pill btn-outline-primary c" value="Login"></a>
+            <p>New User?<a class="text-decoration-none" routerLink="Register">Register</a></p>
+        </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+p{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 1px;
+}
+.f{
+    margin-left: 160px;
+}
+.fo{
+    margin-top: 30px;
+    border-radius: 35px;
+    border: 2px  solid;
+    width: 50%;
+    margin-left: auto;  
+    margin-right: auto; 
+    color: black;
+    height: 520px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold; 
+    width: 30%;
+}
+.b{
+    text-align: center;
+    margin-top: 2px;
+}
+.h{
+    text-align: center; 
+    padding-top: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+<div  class="container">
+  <div class="d">
+  <div class="row ">
+    <div class="col-3 c card border-dark" *ngFor="let item of items;" style="width: 18rem;">
+        <img src="../../../assets/{{item.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.Name}}</h5>
+          <p class="card-text">₹{{item.Price}}</p>
+          <a [routerLink]="['/Product',item._id]" class="btn btn-outline-primary rounded-pill mx-auto d-block">Get Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

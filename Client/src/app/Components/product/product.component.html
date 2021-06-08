@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4 i">
+            <img src="../../../assets/{{items.image}}" alt="product">
+        </div>
+        <div class="col-4">
+            <div class="fo">
+                <div class=" row mt-3 n">
+                    <p class="col-sm">{{items.Name}}</p>
+                </div>
+                <div class=" row mt-2">
+                    <label class="col-sm ">OS :</label>
+                    <p class="col-sm">{{items.OS}}</p>
+                </div>
+                <div class=" row mt-2">
+                    <label class="col-sm ">Display :</label>
+                    <p class="col-sm">{{items.Display}}</p>
+                </div>
+                <div class=" row  mt-2">
+                    <label class="col-sm ">Processor :</label>
+                    <p class="col-sm">{{items.Processor}}</p>
+                </div>
+                <div class=" row  mt-2">
+                    <label class="col-sm ">Memory:</label>
+                    <p class="col-sm">{{items.Memory}}</p>
+                </div>
+                <div class=" row  mt-2">
+                    <label class="col-sm ">Weight :</label>
+                    <p class="col-sm">{{items.Weight}}</p>
+                </div>
+                <div class=" row  mt-2">
+                    <label class="col-sm ">Dimensions :</label>
+                    <p class="col-sm">{{items.Dimension}}</p>
+                </div>
+                <div class=" row  mt-2">
+                    <label class="col-sm ">Graphics Processor :</label>
+                    <p class="col-sm">{{items.Graphics_Processor}}</p>
+                </div>
+                <div class="row">
+                    <div class="b col">
+                        <a class="b1 btn btn-outline-primary rounded-pill b" routerLink="Purchase">Buy Now</a>
+                    </div>
+                    <div class="b col">
+                        <button (click)="cart()" class="b1 btn btn-outline-primary rounded-pill b" >Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

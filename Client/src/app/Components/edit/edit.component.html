@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="f">
+        <h3 class="h">Edit Details</h3>
+        <form class="fo" (Submit)="edit()">
+            <div class="form-group row mt-3">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Name</label>
+                <input type="text" class="form-control" [(ngModel)]="name" id="exampleFormControlInput1" value="user.name">
+            </div>
+            <div class="form-group row mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Email </label>
+                <input type="email" class="form-control" [(ngModel)]="email" id="exampleFormControlInput1" value="user.email">
+            </div>
+            <div class="form-group row mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Password</label>
+                <input type="password" class="form-control" [(ngModel)]="password" id="exampleFormControlInput1" value="user.password">
+            </div>
+            <div class="form-group row  mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Contact</label>
+                <input type="number" class="form-control" [(ngModel)]="contact" id="exampleFormControlInput1" value="user.contact">
+            </div>
+            <div class="form-group row  mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Street</label>
+                <input type="text" class="form-control" [(ngModel)]="street" id="exampleFormControlInput1" value="user.street">
+            </div>
+            <div class="form-group row  mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">City</label>
+                <input type="text" class="form-control" [(ngModel)]="city" id="exampleFormControlInput1" value="user.city">
+            </div>
+            <div class="form-group row  mt-4">
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">State</label>
+                <input type="text" class="form-control" [(ngModel)]="state" id="exampleFormControlInput1" value="user.state">
+            </div>
+            <div class="b">
+            <input type="submit" class="btn rounded-pill btn-outline-primary b" value="Update">
+            <p>Already Registered?<a class="text-decoration-none" routerLink="Login">Login</a></p>
+        </div>
+        </form>
+    </div>
+</div>

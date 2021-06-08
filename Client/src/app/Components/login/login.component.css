@@ -1,0 +1,40 @@
+input{
+    width: 200px;
+    margin-left: 42px;
+    border-radius: 20px;
+}
+.f{
+    margin-top: 170px;
+    border-radius: 35px;
+    border: 2px solid;
+    width: 40%;
+    margin-left: auto;  
+    margin-right: auto; 
+    color: black;
+    height: 290px;
+}
+.fo{
+    margin-left: 50px;
+    display: inline-block;
+}
+label{
+    font-size: 17px;
+}
+.b{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.h{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+p{
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.c{
+    width: 50%;
+    margin-top: 10px;
+}
