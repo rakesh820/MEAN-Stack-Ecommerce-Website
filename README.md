@@ -12,4 +12,5 @@ User can register, see his details and can edit the details as well.
 Install node_modules before starting the app.
 
 "ng serve" to start Angular App.
+
 "npm index.js" to start the server.
